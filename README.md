@@ -1,2 +1,0 @@
-# Baspana
-Web app
