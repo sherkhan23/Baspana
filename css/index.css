@@ -104,3 +104,22 @@ html, body{
 .pic-partner{
     width:60%;
 }
+
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ .social-m{
+     margin-left: 10px;
+ }
+ #foot-links > a{
+     text-decoration: none;
+     color: black;
+     margin-left: 10px;
+ }
+ #foot-links > a:hover {
+    text-decoration: underline;
+
+}
