@@ -38,9 +38,86 @@
 <body>
 
     <div class="main-wrapper">
+         <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <h3 class="fs-3 text-muted"><a href="../index.html">Baspana</a> </h3>
+        </a>
+        <!--  -->
+        <div class="navbar-collapse d-flex justify-content-center">
+            <ul class="navbar-nav" id="navbar-links">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shop/shop.html">Complex Residants</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Best deal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
       
+      <!-- Collapsible wrapper -->
+  
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <div class="text-muted">
+           <span class="d-flex mr-3"> Contact <i class="bi bi-envelope ml-2"></i></span>
+           
+        </div>
+       
+        <!-- Avatar -->
+      
+        <div class="dropdown">
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >  <a href="login-reg/login.html">
+            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25" 
+            alt="Black and White Portrait of a Man" 
+            loading="lazy"
+            />
+        </a>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+    
+      </div>
+      
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
         
-        <div class="shop-area pt-120 pb-120">
+        <div class="shop-area mt-40 pb-120">
             <div class="container">
                 <div class="row flex-row-reverse">
                     <div class="col-lg-9">
@@ -79,7 +156,7 @@
                                             <div class="single-product-wrap mb-35">
                                                 <div class="product-img product-img-zoom mb-15">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-13.jpg" alt="">
+                                                        <img src="../media/card5.jpeg" alt="">
                                                     </a>
                                                     <div class="product-action-2 tooltip-style-2">
                                                         <button title="Wishlist"><i class="icon-heart"></i></button>
@@ -98,9 +175,9 @@
                                                         </div>
                                                         <span>(2)</span>
                                                     </div>
-                                                    <h3><a href="product-details.html">Basic Joggin Shorts</a></h3>
+                                                    <h3><a href="product-details.html">Жк Коркем</a></h3>
                                                     <div class="product-price-2">
-                                                        <span>$20.50</span>
+                                                        <span>от ‍325 990 ₸≈ $740</span>
                                                     </div>
                                                 </div>
                                                 <div class="product-content-wrap-2 product-content-position text-center">
@@ -114,9 +191,9 @@
                                                         </div>
                                                         <span>(2)</span>
                                                     </div>
-                                                    <h3><a href="product-details.html">Basic Joggin Shorts</a></h3>
+                                                    <h3><a href="product-details.html">Жк Коркем</a></h3>
                                                     <div class="product-price-2">
-                                                        <span>$20.50</span>
+                                                        <span>от ‍325 990 ₸≈ $740</span>
                                                     </div>
                                                     <div class="pro-add-to-cart">
                                                         <button title="Add to Cart">Add To Cart</button>
@@ -152,22 +229,23 @@
                                 </div>
                             </div>
                             <div class="sidebar-widget shop-sidebar-border mb-35 pt-40">
-                                <h4 class="sidebar-widget-title">Categories </h4>
-                                <div class="shop-catigory">
-                                    <ul>
-                                        <li><a href="shop.html">T-Shirt</a></li>
-                                        <li><a href="shop.html">Shoes</a></li>
-                                        <li><a href="shop.html">Clothing </a></li>
-                                        <li><a href="shop.html">Women </a></li>
-                                        <li><a href="shop.html">Baby Boy </a></li>
-                                        <li><a href="shop.html">Accessories </a></li>
-                                    </ul>
+                                <div class="product-sorting-wrapper">
+                                    <div class="product-show shorting-style">
+                                        <h4>Расположение в Нур-Султане (Астане)</h4>
+                                        <select class="select-list">
+                                            <option value="">Тараз</option>
+                                            <option value="">Алматы</option>
+                                            <option value="">Караганды
+                                            
+                                            </option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                             <div class="sidebar-widget shop-sidebar-border mb-40 pt-40">
                                 <h4 class="sidebar-widget-title">Price Filter </h4>
                                 <div class="price-filter">
-                                    <span>Range:  $100.00 - 1.300.00 </span>
+                                    <span>Range:  300К - 1.300К кв/м</span>
                                     <div id="slider-range"></div>
                                     <div class="price-slider-amount">
                                         <div class="label-input">
@@ -178,24 +256,30 @@
                                 </div>
                             </div>
                             <div class="sidebar-widget shop-sidebar-border mb-40 pt-40">
-                                <h4 class="sidebar-widget-title">Refine By </h4>
+                                <h4 class="sidebar-widget-title">Комнатность </h4>
                                 <div class="sidebar-widget-list">
                                     <ul>
                                         <li>
                                             <div class="sidebar-widget-list-left">
-                                                <input type="checkbox"> <a href="#">On Sale <span>4</span> </a>
+                                                <input type="checkbox"> <a href="#">1 <span>4</span> </a>
                                                 <span class="checkmark"></span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">New <span>5</span></a>
+                                                <input type="checkbox" value=""> <a href="#">2<span>5</span></a>
                                                 <span class="checkmark"></span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">In Stock <span>6</span> </a>
+                                                <input type="checkbox" value=""> <a href="#">3 <span>6</span> </a>
+                                                <span class="checkmark"></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="sidebar-widget-list-left">
+                                                <input type="checkbox" value=""> <a href="#">4+ <span>6</span> </a>
                                                 <span class="checkmark"></span>
                                             </div>
                                         </li>
@@ -203,30 +287,24 @@
                                 </div>
                             </div>
                             <div class="sidebar-widget shop-sidebar-border mb-40 pt-40">
-                                <h4 class="sidebar-widget-title">Size </h4>
+                                <h4 class="sidebar-widget-title">Завершение строительствв </h4>
                                 <div class="sidebar-widget-list">
                                     <ul>
                                         <li>
                                             <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">XL <span>4</span> </a>
+                                                <input type="checkbox" value=""> <a href="#">Сданные <span>4</span> </a>
                                                 <span class="checkmark"></span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">L <span>5</span> </a>
+                                                <input type="checkbox" value=""> <a href="#">Сдача в 2022+ <span>5</span> </a>
                                                 <span class="checkmark"></span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">SM <span>6</span> </a>
-                                                <span class="checkmark"></span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">XXL <span>7</span> </a>
+                                                <input type="checkbox" value=""> <a href="#">Сдача в 2023+ <span>6</span> </a>
                                                 <span class="checkmark"></span>
                                             </div>
                                         </li>
@@ -234,45 +312,40 @@
                                 </div>
                             </div>
                             <div class="sidebar-widget shop-sidebar-border mb-40 pt-40">
-                                <h4 class="sidebar-widget-title">Color </h4>
+                                <h4 class="sidebar-widget-title">Условиое покупки </h4>
                                 <div class="sidebar-widget-list">
                                     <ul>
                                         <li>
                                             <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">Green <span>7</span> </a>
+                                                <input type="checkbox" value=""> <a href="#">Ипотека <span>7</span> </a>
                                                 <span class="checkmark"></span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">Cream <span>8</span> </a>
+                                                <input type="checkbox" value=""> <a href="#">Рассрочка <span>8</span> </a>
                                                 <span class="checkmark"></span>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">Blue <span>9</span> </a>
+                                                <input type="checkbox" value=""> <a href="#">Купить <span>9</span> </a>
                                                 <span class="checkmark"></span>
                                             </div>
                                         </li>
                                         <li>
-                                            <div class="sidebar-widget-list-left">
-                                                <input type="checkbox" value=""> <a href="#">Black <span>3</span> </a>
-                                                <span class="checkmark"></span>
-                                            </div>
+                                            <a href="https://">Калькулятор ипотеки</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="sidebar-widget shop-sidebar-border pt-40">
-                                <h4 class="sidebar-widget-title">Popular Tags</h4>
-                                <div class="tag-wrap sidebar-widget-tag">
-                                    <a href="#">Clothing</a>
-                                    <a href="#">Accessories</a>
-                                    <a href="#">For Men</a>
-                                    <a href="#">Women</a>
-                                    <a href="#">Fashion</a>
-                                </div>
+                                <h4>Больше фильтров</h4>
+                                <select class="select-list">
+                                    <option value="">Больше фильтров</option>
+                                    <option value="">Алматы</option>
+                                    <option value="">Караганды</option>
+                                </select>
                             </div>
                         </div>
                     </div>
